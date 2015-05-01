@@ -7,12 +7,16 @@ RSpec.describe "Tasks", type: :request do
 
   describe "GET /tasks" do
     it "should list all open tasks" do
-        get root_path
-        expect(response).to have_http_status(200)
-        tasks.each do |task|
-            expect(json.collect{|l| l["title"]}).to include(task.title)
-            expect(json.collect{|l| l["status"]}).not_to include("Close")
-        end
+        get tasks_path
+        expect(json.collect{|l| l["status"]}).not_to include("Close")
     end
   end
+
+  describe "GET /tasks/closed" do
+    it "should list all closed tasks" do
+        get tasks_closed_path
+        expect(json.collect{|l| l["status"]}).not_to include("Open")
+    end
+  end
+
 end
