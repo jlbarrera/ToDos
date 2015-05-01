@@ -11,6 +11,7 @@ RSpec.describe "Tasks", type: :request do
         expect(response).to have_http_status(200)
         tasks.each do |task|
             expect(json.collect{|l| l["title"]}).to include(task.title)
+            expect(json.collect{|l| l["status"]}).not_to include("Close")
         end
     end
   end
