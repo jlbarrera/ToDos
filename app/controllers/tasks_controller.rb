@@ -9,7 +9,7 @@ class TasksController < ApplicationController
     end
 
     def closed
-        @tasks = Task.where(status: 'Close').order("created_at DESC")
+        @tasks = Task.where(status: 'Closed').order("created_at DESC")
         render :json => @tasks
     end
 end
