@@ -59,6 +59,7 @@ Rails.application.routes.draw do
   resources :tasks
 
   get 'closed' => 'tasks#closed', as: 'tasks_closed'
+  get 'all' => 'tasks#all', as: 'tasks_all'
 
 
 end
