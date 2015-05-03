@@ -8,7 +8,7 @@
       <change type="DELETED" beforePath="C:\Projects\ToDos\.idea\modules.xml" afterPath="" />
       <change type="DELETED" beforePath="C:\Projects\ToDos\.idea\scopes\scope_settings.xml" afterPath="" />
       <change type="DELETED" beforePath="C:\Projects\ToDos\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\ToDos\.idea\workspace.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ToDos.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -386,7 +386,13 @@
       <option name="project" value="LOCAL" />
       <updated>1430674749766</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Cleaning">
+      <created>1430675763010</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1430675763011</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -464,7 +470,8 @@
     <MESSAGE value="Updating request specs" />
     <MESSAGE value="Updating controller spec" />
     <MESSAGE value="Updating controller and routes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating controller and routes" />
+    <MESSAGE value="Cleaning" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaning" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
